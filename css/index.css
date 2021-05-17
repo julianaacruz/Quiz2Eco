@@ -1,47 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #24333f;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #26838a;
+    text-align: center;
+    font-weight: 700;
+    margin: 20px
+  }
+
+  h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #24333f;
+    font-weight: 700;
+    margin: 20px
+  }
 
 #header{
+ 
+        padding-top: 20px;
+
+    }
+
+#tasks{
     display:flex;
     flex-direction: column;
 }
+
+
+#newTaskInput{
+    margin-left: 20px;
+    position: relative;
+    height: 20px;
+}
+#addTaskButton{
+    height: 25px;
+    width: 25px;
+    border: none;
+    color: #fff;
+background-color: #24333f;
+border-radius: 10%;
+
+}
+
 .columnaTareas{
     margin-top: 10px;
+    margin-left: 20px;
     margin-bottom: 10px;
-    background: #EEE;
+    background: #d5e9eb;
     width: 10em;
-    padding: 3%;
+    padding: 2%;
     position: relative;
     border-radius: 5px;
 }
 
 .textoTarea{
+    font-family: "Roboto", sans-serif;
+    color: #24333f;
     font-weight: bold;
     padding-right: 20px;
 }
 
 .fecha{
+    font-family: "Roboto", sans-serif;
+
     font-size: 10px;
     padding-top: 5px;
 }
 
 div .botonBorrar{
-
-    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+     font-size: 12px;
     position: absolute;
     right: 5px;
     top:5px;
+    border: none;
+    color:#24333f;
+    background: 0%;
 }
 
 div .botonPrev{
+    font-family: "Roboto", sans-serif;
+
     position: absolute;
     right: 30px;
     bottom:10px;
+    border: none;
+    color: #fff;
+background-color: #24333f;
+border-radius: 10%;
+;
 
 }
 
 div .botonSig{
+    font-family: "Roboto", sans-serif;
+
     position: absolute;
-    right: 5px;
+    right: 7px;
     bottom:10px;
+    border: none;
+    color: #fff;
+background-color: #24333f;
+border-radius: 10%;
 
 }
