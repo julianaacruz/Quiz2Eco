@@ -1,0 +1,47 @@
+
+
+#header{
+    display:flex;
+    flex-direction: column;
+}
+.columnaTareas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #EEE;
+    width: 10em;
+    padding: 3%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.textoTarea{
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.fecha{
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+div .botonBorrar{
+
+    font-size: 10px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+
+div .botonPrev{
+    position: absolute;
+    right: 30px;
+    bottom:10px;
+
+}
+
+div .botonSig{
+    position: absolute;
+    right: 5px;
+    bottom:10px;
+
+}
